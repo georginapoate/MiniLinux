@@ -22,7 +22,7 @@ class Task:
 # Asta e pentru generatiile urmatoare care vor sa se joace mai tare cu valgrind
 test_tuple = namedtuple("Test", "name, error")
 
-runExec = "./tema"
+runExec = "./minilinux"
 useShell = True
 inputFileName = "input"
 memoryPass = True
@@ -114,7 +114,7 @@ if not os.path.exists(INPUT_FILE):
     sys.exit(-1)
 
 ## Start of the horror
-print("\n======================= Tema 1 IOCLA =======================\n")
+print("\n======================= Minilinux =======================\n")
 
 regular_tests = [x for x in sorted(os.listdir(INPUT_FILE)) if not x.startswith("mv_")]
 

@@ -1,8 +1,8 @@
 build:
-	gcc tema1.c -g -o tema
+	gcc Minilinux.c -g -o minilinux
 
 clean:
-	rm tema
+	rm minilinux
 
 checker:
 	python3 checker.py
